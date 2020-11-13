@@ -12,18 +12,22 @@ function Tabs() {
           <Icon name="person-add" size={24} color={'#FFF'} />
           <TabText>Indicar amigos</TabText>
         </TabItem>
+
         <TabItem>
           <Icon name="chat-bubble-outline" size={24} color={'#FFF'} />
           <TabText>Cobrar</TabText>
         </TabItem>
+
         <TabItem>
           <Icon name="attach-money" size={24} color={'#FFF'} />
           <TabText>Depositar</TabText>
         </TabItem>
+
         <TabItem>
           <Icon name="transfer-within-a-station" size={24} color={'#FFF'} />
           <TabText>Transferência</TabText>
         </TabItem>
+
         <TabItem>
           <Icon name="lock" size={24} color={'#FFF'} />
           <TabText>Bloquear Cartão</TabText>
