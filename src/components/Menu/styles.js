@@ -9,15 +9,15 @@ export const Container = styled.ScrollView`
 export const Code = styled.View`
   padding: 10px;
 
-  /* background: #fff; */
   align-self: center;
+
+  background: red;
+  width: 100px;
+  height: 100px;
 `;
 
 export const Nav = styled.View`
   margin-top: 30px;
-
-  border-bottom-color: rgba(255, 255, 255, 0.8);
-  border-top-width: ${StyleSheet.hairlineWidth}px; // menor que 1px.
 `;
 
 export const NavItem = styled.View`
@@ -26,8 +26,8 @@ export const NavItem = styled.View`
 
   flex-direction: row;
 
-  border-bottom-color: rgba(255, 255, 255, 0.8);
-  border-bottom-width: ${StyleSheet.hairlineWidth}px;
+  border-color: rgba(255, 255, 255, 0.8);
+  border-bottom-width: ${StyleSheet.hairlineWidth}px; // menor que 1px.
 `;
 
 export const NavText = styled.Text`
@@ -46,7 +46,7 @@ export const SignOutButton = styled.TouchableOpacity`
   justify-content: center;
 
   border-color: rgba(255, 255, 255, 0.8);
-  border-width: ${StyleSheet.hairlineWidth}px;
+  border-width: ${StyleSheet.hairlineWidth}px; // menor que 1px.
 `;
 
 export const SignOutButtonText = styled.Text`
