@@ -41,7 +41,7 @@ export default function Main() {
       <Header />
 
       <Content>
-        <Menu />
+        <Menu translateY={translateY} />
 
         <PanGestureHandler
           onGestureEvent={animatedEvent}
@@ -77,7 +77,7 @@ export default function Main() {
         </PanGestureHandler>
       </Content>
 
-      <Tabs />
+      <Tabs translateY={translateY} />
     </Container>
   );
 }
