@@ -4,11 +4,11 @@ import QrCode from 'react-native-qrcode';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
-  Container,
   Code,
   Nav,
   NavItem,
   NavText,
+  Container,
   SignOutButton,
   SignOutButtonText,
 } from './styles';
@@ -27,12 +27,12 @@ function Menu() {
 
       <Nav>
         <NavItem>
-          <Icon name="help_outline" size={20} color="#FFF" />
+          <Icon name="help-outline" size={20} color="#FFF" />
           <NavText>Me ajuda</NavText>
         </NavItem>
 
         <NavItem>
-          <Icon name="person_outline" size={20} color="#FFF" />
+          <Icon name="person-outline" size={20} color="#FFF" />
           <NavText>Perfil</NavText>
         </NavItem>
 

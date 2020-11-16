@@ -20,7 +20,7 @@ export const Content = styled.View`
 
 export const Card = styled(Animated.View)`
   left: 0;
-  top: 380px;
+  top: 0px;
   right: 0;
 
   position: absolute;

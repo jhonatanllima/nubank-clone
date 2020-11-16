@@ -9,7 +9,7 @@ export const Container = styled.ScrollView`
 export const Code = styled.View`
   padding: 10px;
 
-  background: #fff;
+  /* background: #fff; */
   align-self: center;
 `;
 

@@ -51,8 +51,8 @@ export default function Main() {
               transform: [
                 {
                   translateY: translateY.interpolate({
-                    inputRange: [-350, 0, 380],
-                    outputRange: [-50, 0, 380],
+                    inputRange: [-350, 0, 390],
+                    outputRange: [-50, 0, 390],
                     extrapolate: 'clamp',
                   }),
                 },
