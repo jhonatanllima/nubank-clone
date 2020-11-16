@@ -1,5 +1,6 @@
 import React from 'react';
 
+import QRCode from 'react-native-qrcode-svg';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
@@ -15,7 +16,13 @@ import {
 function Menu() {
   return (
     <Container>
-      <Code />
+      <Code>
+        <QRCode
+          value="https://github.com/jhonatanllima"
+          logoSize={30}
+          color={'#8B10AE'}
+        />
+      </Code>
 
       <Nav>
         <NavItem>

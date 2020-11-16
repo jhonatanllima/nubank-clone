@@ -7,13 +7,9 @@ export const Container = styled.ScrollView`
 `;
 
 export const Code = styled.View`
-  padding: 10px;
+  padding: 5px;
 
   align-self: center;
-
-  background: red;
-  width: 100px;
-  height: 100px;
 `;
 
 export const Nav = styled.View`
