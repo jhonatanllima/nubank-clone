@@ -26,13 +26,23 @@ function Tabs({translateY}) {
       }}>
       <TabsContainer>
         <TabItem>
+          <Icon name="widgets" size={24} color={'#FFF'} />
+          <TabText>Pix</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="qr-code" size={24} color={'#FFF'} />
+          <TabText>Pagar</TabText>
+        </TabItem>
+
+        <TabItem>
           <Icon name="person-add" size={24} color={'#FFF'} />
           <TabText>Indicar amigos</TabText>
         </TabItem>
 
         <TabItem>
-          <Icon name="chat-bubble-outline" size={24} color={'#FFF'} />
-          <TabText>Cobrar</TabText>
+          <Icon name="transfer-within-a-station" size={24} color={'#FFF'} />
+          <TabText>Transferir</TabText>
         </TabItem>
 
         <TabItem>
@@ -41,13 +51,43 @@ function Tabs({translateY}) {
         </TabItem>
 
         <TabItem>
-          <Icon name="transfer-within-a-station" size={24} color={'#FFF'} />
-          <TabText>Transferência</TabText>
+          <Icon name="account-balance" size={24} color={'#FFF'} />
+          <TabText>Empréstimos</TabText>
         </TabItem>
 
         <TabItem>
-          <Icon name="lock" size={24} color={'#FFF'} />
+          <Icon name="credit-card" size={24} color={'#FFF'} />
+          <TabText>Cartão Virtual</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="smartphone" size={24} color={'#FFF'} />
+          <TabText>Recarga de celular</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="tune" size={24} color={'#FFF'} />
+          <TabText>Ajustar limite</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="lock-open" size={24} color={'#FFF'} />
           <TabText>Bloquear Cartão</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="attach-money" size={24} color={'#FFF'} />
+          <TabText>Cobrar</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="thumb-up" size={24} color={'#FFF'} />
+          <TabText>Doação</TabText>
+        </TabItem>
+
+        <TabItem>
+          <Icon name="help-outline" size={24} color={'#FFF'} />
+          <TabText>Me ajuda</TabText>
         </TabItem>
       </TabsContainer>
     </Container>

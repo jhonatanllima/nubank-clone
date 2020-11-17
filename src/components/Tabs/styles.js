@@ -2,18 +2,18 @@ import {Animated} from 'react-native';
 import styled from 'styled-components/native';
 
 export const Container = styled(Animated.View)`
-  height: 100px;
-  margin: 10px 0;
+  height: 140px;
+  margin: 10px 0 0 0;
 `;
 
 export const TabsContainer = styled.ScrollView.attrs({
   horizontal: true,
   showsHorizontalScrollIndicator: false,
-  contentContainerStyle: {paddingLeft: 10, paddingRight: 20},
+  contentContainerStyle: {paddingLeft: 10, paddingRight: 20, paddingTop: 20},
 })``;
 
-export const TabItem = styled.View`
-  width: 100px;
+export const TabItem = styled.TouchableOpacity`
+  width: 90px;
   height: 100px;
   padding: 10px;
   margin-left: 10px;
