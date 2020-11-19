@@ -22,7 +22,7 @@ export const TextSub = styled.Text`
   font-size: 18px;
 `;
 
-export const TabFriends = styled.View`
+export const TabFriends = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
 
