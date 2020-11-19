@@ -7,14 +7,6 @@ export const Container = styled.View`
   background: #fff;
 `;
 
-export const Header = styled.View`
-  width: 100%;
-  height: 60px;
-  padding: 10px;
-`;
-
-export const Button = styled.TouchableOpacity``;
-
 export const Content = styled.ScrollView`
   flex: 1;
 

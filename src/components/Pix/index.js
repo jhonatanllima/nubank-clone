@@ -1,12 +1,8 @@
 import React from 'react';
 
-import {useNavigation} from '@react-navigation/native';
-
 import {
   Circle,
   Footer,
-  Header,
-  Button,
   Content,
   Container,
   TextTitle,
@@ -19,21 +15,14 @@ import {
   TextDescription,
 } from './styles';
 
+import HeaderContentPage from '~/components/HeaderContentPage';
+
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 function Pix() {
-  const {navigate} = useNavigation();
-
-  function handleNavigationToMainPage() {
-    navigate('Main');
-  }
   return (
     <Container>
-      <Header>
-        <Button onPress={handleNavigationToMainPage}>
-          <Icon name="close" size={38} color="#666" />
-        </Button>
-      </Header>
+      <HeaderContentPage />
 
       <Content>
         <ImageContent />
@@ -73,7 +62,7 @@ function Pix() {
           <Icon
             name="keyboard-arrow-right"
             size={30}
-            style={{marginLeft: 125, marginTop: 3}}
+            style={{marginLeft: 130, marginTop: 3}}
           />
         </WrapFooter>
 
