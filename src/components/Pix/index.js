@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {useNavigation} from '@react-navigation/native';
+
 import {
   Circle,
   Footer,
@@ -20,10 +22,15 @@ import {
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 function Pix() {
+  const {navigate} = useNavigation();
+
+  function handleNavigationToMainPage() {
+    navigate('Main');
+  }
   return (
     <Container>
       <Header>
-        <Button>
+        <Button onPress={handleNavigationToMainPage}>
           <Icon name="close" size={38} color="#666" />
         </Button>
       </Header>
