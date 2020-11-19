@@ -40,3 +40,13 @@ export const TextButton = styled.Text`
 
   text-transform: uppercase;
 `;
+
+export const ImageAnimation = styled.Image`
+  margin-top: 20px;
+
+  width: 100%;
+  height: 350px;
+  border-radius: 4px;
+
+  background: #d9d9d9;
+`;

@@ -3,12 +3,13 @@ import React from 'react';
 import HeaderContentPage from '~/components/HeaderContentPage';
 
 import {
-  Container,
   Wrap,
-  TextTitle,
   TextSub,
+  Container,
+  TextTitle,
   TabFriends,
   TextButton,
+  ImageAnimation,
 } from './styles';
 
 function ReferFriends() {
@@ -25,6 +26,8 @@ function ReferFriends() {
         <TabFriends>
           <TextButton>Indicar amigos</TextButton>
         </TabFriends>
+
+        <ImageAnimation />
       </Wrap>
     </Container>
   );
