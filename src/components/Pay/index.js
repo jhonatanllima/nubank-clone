@@ -37,8 +37,8 @@ function Pay() {
           <TextContent style={{marginLeft: -45}}>Pagar um boleto</TextContent>
           <Icon name="keyboard-arrow-right" size={35} color="#a9a9a9" />
         </SubContent>
-        <SubTextContent>
-          Gere um boleto ou pague com a conta do Nubank
+        <SubTextContent style={{marginLeft: -75}}>
+          Contas de água, luz, etc
         </SubTextContent>
       </WrapContent>
     </Container>

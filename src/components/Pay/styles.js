@@ -23,15 +23,16 @@ export const SubContent = styled.View`
   width: 100%;
   height: 40px;
 
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
 `;
 export const SubTextContent = styled.Text`
   top: -20px;
 
   padding: 0 30px 0 45px;
 
+  color: #999;
   font-size: 16px;
 `;
 export const Border = styled.View`
