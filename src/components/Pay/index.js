@@ -2,8 +2,14 @@ import React from 'react';
 
 import {Container} from './styles';
 
+import HeaderContentPage from '~/components/HeaderContentPage';
+
 function Pay() {
-  return <Container />;
+  return (
+    <Container>
+      <HeaderContentPage />
+    </Container>
+  );
 }
 
 export default Pay;

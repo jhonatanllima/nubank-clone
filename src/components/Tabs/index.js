@@ -13,6 +13,10 @@ function Tabs({translateY}) {
     navigate('Pix');
   }
 
+  function handleNavigationToPayPage() {
+    navigate('Pay');
+  }
+
   return (
     <Container
       style={{
@@ -38,7 +42,7 @@ function Tabs({translateY}) {
           <TabText>Pix</TabText>
         </TabItem>
 
-        <TabItem>
+        <TabItem onPress={handleNavigationToPayPage}>
           <Icon name="qr-code" size={24} color={'#FFF'} />
           <TabText>Pagar</TabText>
         </TabItem>

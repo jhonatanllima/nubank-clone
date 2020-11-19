@@ -7,6 +7,7 @@ import {StatusBar} from 'react-native';
 
 import Main from '~/pages/Main';
 import Pix from '~/components/Pix';
+import Pay from '~/components/Pay';
 
 import '~/config/ReactotronConfig';
 
@@ -20,6 +21,7 @@ const App = () => (
       initialRouteName="Main">
       <Stack.Screen name="Main" component={Main} />
       <Stack.Screen name="Pix" component={Pix} />
+      <Stack.Screen name="Pay" component={Pay} />
     </Stack.Navigator>
   </NavigationContainer>
 );
