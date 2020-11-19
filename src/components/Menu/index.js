@@ -26,7 +26,7 @@ function Menu({translateY}) {
         <QRCode
           value="https://github.com/jhonatanllima"
           logoSize={30}
-          color={'#8B10AE'}
+          color={'#612f74'}
         />
       </Code>
 
