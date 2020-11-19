@@ -8,6 +8,7 @@ import {StatusBar} from 'react-native';
 import Main from '~/pages/Main';
 import Pix from '~/components/Pix';
 import Pay from '~/components/Pay';
+import ReferFriends from '~/components/ReferFriends';
 
 import '~/config/ReactotronConfig';
 
@@ -22,6 +23,7 @@ const App = () => (
       <Stack.Screen name="Main" component={Main} />
       <Stack.Screen name="Pix" component={Pix} />
       <Stack.Screen name="Pay" component={Pay} />
+      <Stack.Screen name="ReferFriends" component={ReferFriends} />
     </Stack.Navigator>
   </NavigationContainer>
 );

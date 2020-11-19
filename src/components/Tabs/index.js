@@ -17,6 +17,10 @@ function Tabs({translateY}) {
     navigate('Pay');
   }
 
+  function handleNavigationToReferFriendsPage() {
+    navigate('ReferFriends');
+  }
+
   return (
     <Container
       style={{
@@ -47,7 +51,7 @@ function Tabs({translateY}) {
           <TabText>Pagar</TabText>
         </TabItem>
 
-        <TabItem>
+        <TabItem onPress={handleNavigationToReferFriendsPage}>
           <Icon name="person-add" size={24} color={'#FFF'} />
           <TabText>Indicar amigos</TabText>
         </TabItem>
