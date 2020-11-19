@@ -1,10 +1,18 @@
 import React from 'react';
 
+import {useNavigation} from '@react-navigation/native';
+
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {Container, TabsContainer, TabItem, TabText} from './styles';
 
 function Tabs({translateY}) {
+  const {navigate} = useNavigation();
+
+  function handleNavigationToPixPage() {
+    navigate('Pix');
+  }
+
   return (
     <Container
       style={{
@@ -25,7 +33,7 @@ function Tabs({translateY}) {
         }),
       }}>
       <TabsContainer>
-        <TabItem>
+        <TabItem onPress={handleNavigationToPixPage}>
           <Icon name="widgets" size={24} color={'#FFF'} />
           <TabText>Pix</TabText>
         </TabItem>

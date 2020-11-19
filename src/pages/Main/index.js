@@ -60,9 +60,6 @@ export default function Main() {
         translateY.setOffset(offset);
         translateY.setValue(0);
       });
-
-      // translateY.setOffset(offset);
-      // translateY.setValue(0);
     }
   }
 
